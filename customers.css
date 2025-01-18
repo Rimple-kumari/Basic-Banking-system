@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(183, 215, 244);
+}
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.1cm;
+}
+.table{
+    margin: 25px;
+}
+.buttonrow{
+    text-align: center;
+}
+.viewHistory{
+    
+    font-size: large;
+    
+    /* padding: 50px; */
+    text-align: end;
+    
+    /* border: 1px solid black; */
+    
+    
+}
+.navelement{
+    font-size: large;
+    border: 1px solid black;
+    margin-left: 750px;
+    background-color: aqua;
+    padding: 10px;
+    letter-spacing: normal;
+}
+a{
+    text-decoration: none;
+}
+.navelement :hover{
+    background-color: rgb(175, 249, 249);
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction</title>
+    <link rel="stylesheet" href="sendMoney.css">
+</head>
+<body>
+    <h1 class="heading">TRANSACTION</h1>
+    <section class="box">
+    <form onsubmit="return transferMoney(event)">
+        <label for="customer" class="selectcustomer">RECEIVER:</label>
+        <select id="customer">
+          <option value="customer1">John</option>
+          <option value="customer2">Jane</option>
+          <option value="customer3">Nick</option>
+          <option value="customer4">Smith</option>
+          <option value="customer5">Marnus</option>
+          <option value="customer6">Peter</option>
+          <option value="customer7">Travis</option>
+          <option value="customer8">Alex</option>
+          <option value="customer9">Stokes</option>
+          <option value="customer10">Jacob</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <label for="amount" class="amount">AMOUNT:</label>
+        <input type="number" id="amount" min="1" required>
+        <br>
+        <br>
+        <br>
+        <button type="submit" class="submitted">SEND</button>
+      </form>
+    </section>
+    <script src="script2.js"></script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #customer1,
+  #customer2 {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  form {
+    text-align: center;
+  }
+  
+  form label,
+  form select,
+  form input {
+    display: block;
+    margin-bottom: 10px;
+  }

@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(161, 242, 252);
+}
+.heading{
+    text-align: center;
+    margin-top: 10px;
+    letter-spacing: 0.1cm;
+}
+.table{
+    margin: 25px;
+    margin-left: 0;
+}
